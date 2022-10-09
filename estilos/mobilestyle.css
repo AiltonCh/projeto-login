@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(87, 28, 142);
+}
+form {
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    width: 35vw;
+    height: 85vh;
+    border-radius: 20px;
+
+}
+
+legend img {
+    height: 30vh;
+    width: 35vw;
+    border-radius: 20px 20px 0px 0px;
+}
+
+form legend {
+    font-size: 1.5em;
+    text-align: center;
+    
+    
+}
+
+form p {
+    font-size: 0.8em;
+}
+
+.login {
+    padding: 10px;
+    background-color: rgb(87, 28, 142);
+    width: 30vw;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.entrar {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(30, 181, 207);
+    width: 30vw;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.entrar:hover {
+    background-color: rgb(10, 98, 114);
+}
+.log {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background-color: transparent;
+    width: 30vw;
+    margin: 5px;
+    border: 1px solid rgb(10, 98, 114);
+    border-radius: 10px;
+}
+
+.log:hover {
+    background-color: rgb(10, 98, 114);
+}
