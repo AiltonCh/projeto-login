@@ -9,33 +9,18 @@
     <link rel="stylesheet" href="stilos/all.css">
 </head>
 <body>
-   
-    <form action="../html-css/exercicios/ex025/cadastro.php" method="post">
-        <legend>
-            <img src="imagens/tela-de-login.png" alt="fundo de login">
-            Login
-           
-         </legend>
-        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p><br>
-        <p class="login">
-            <label for="inome"><img src="imagens/login.svg" alt="">
-            </label>
-            <input type="text" name="nome" id="inome" required minlength="4" maxlength="50" placeholder="Seu e-mail">
-        </p>
+   <section id="login">
+    <div id="imagem">
+        
+    </div>
 
-        <p class="login">
-            <label for="isenha"><img src="imagens/senha.svg" alt="">
-            </label> 
-            <input type="password" name="senha" id="isenha" required min="1" max="20" placeholder="Sua senha">
-        </p>
+    <div id="formulario">
+        <h1>Login</h1>
+        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        <form action="login.php" method="post">
 
-        <p class="entrar">
-            <input type="submit" value ="Entrar" >
-        </p>
-        <p class="log">
-            <input type="button" value="Esqueci a senha">
-        </p>
-
-    </form>
+        </form>
+    </div>
+   </section>
 </body>
 </html>
